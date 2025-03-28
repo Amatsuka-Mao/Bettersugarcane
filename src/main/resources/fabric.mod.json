@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "bettersugarcane",
+  "version": "1.0.0",
+  "name": "BetterSugarcane",
+  "description": "可以让甘蔗使用骨粉催熟并受到时运附魔影响",
+
+  "authors": ["AmatsukaMao"],
+  "contact": {},
+  "license": "Apache-2.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+    ],
+    "main": [
+      "com.ran.bettersugarcane.bettersugarcane"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "fabric": ">=0.102.0+1.21",
+    "minecraft": "1.21"
+  },
+
+}
